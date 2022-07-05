@@ -3,11 +3,11 @@ package one.digitalinnovation.testes
 import one.digitalinnovation.Banco
 
 fun main() {
-    val digiOneBank = Banco(nome= "DigiOne", numero= 12)
+    val dig1OneBank = Banco(nome= "Dig1One", numero= 12)
 
-    println(digiOneBank.nome)
-    println(digiOneBank.numero)
+    println(dig1OneBank.nome)
+    println(dig1OneBank.numero)
 
-    val banco2 = digiOneBank.copy(nome = "Banco2")
+    val banco2 = dig1OneBank.copy(nome = "Banco2")
     println(banco2.info())
 }
